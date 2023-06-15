@@ -1,0 +1,57 @@
+body {
+    background: #273549;
+    margin: 0;
+    color: white;
+
+}
+
+.container{
+    background: #273549;
+    border: 2px solid black ;
+    border-radius: 5px;
+    width: 550px;
+    height: 550px;
+    margin: auto;
+    margin-top: 8px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.btn{
+    width: 191px;
+    height: 42px;
+    background: #10B981; 
+    border: 0.5px solid  whitesmoke;
+    border-radius: 5px ;
+    margin-top: 40px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.green{
+   color: #4ADF86; 
+}
+
+.line{
+    width: 446px;
+    height: 0px; 
+    border: 1.5px solid #2F3E53;
+    margin-top: 70px;
+}
+
+.p-cont{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.p-gen{
+    width: 211px;
+    height: 39px;
+    background: #4ADF86;
+    border-radius: 6px;
+    line-height: 39px;
+    text-align: center;
+    font-weight: bold;
+}
