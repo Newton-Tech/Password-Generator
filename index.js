@@ -105,8 +105,8 @@ function generatePassword() {
   }
 
   for (let i = 0; i < 15; i++) {
-    let random = Math.floor(Math.random() * characters.length);
-    password_Two += characters[random];
+    let randomNumber = Math.floor(Math.random() * characters.length);
+    password_Two += characters[randomNumber];
   }
 
   passwordOne.textContent = password_One;
