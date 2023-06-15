@@ -96,11 +96,19 @@ const passwordTwo = document.getElementById("password-two");
 
 // let generate a 15 long random password
 function generatePassword() {
-  let password = "";
+  let password_One = "";
+  let password_Two = "";
+
   for (let i = 0; i < 15; i++) {
     let randomNumber = Math.floor(Math.random() * characters.length);
-    password += characters[randomNumber];
+    password_One += characters[randomNumber];
   }
-  passwordOne.textContent = password;
-  passwordTwo.textContent = password;
+
+  for (let i = 0; i < 15; i++) {
+    let random = Math.floor(Math.random() * characters.length);
+    password_Two += characters[random];
+  }
+
+  passwordOne.textContent = password_One;
+  passwordTwo.textContent = password_Two;
 }
